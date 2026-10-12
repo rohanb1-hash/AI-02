@@ -1,0 +1,15 @@
+# baseline parameters
+experiment_name: mlp_baseline
+seed: 42
+
+model:
+  type: mlp
+  input_dim: 784
+  hidden_dim: 128
+  output_dim: 10
+
+training:
+  learning_rate: 0.001
+  batch_size: 64
+  epochs: 10
+  optimizer: Adam
