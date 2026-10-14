@@ -141,6 +141,7 @@ venv.bak/
 .envrc
 *.pem
 *.key
+kaggle.json
 
 # Spyder
 .spyderproject
@@ -181,9 +182,6 @@ tempCodeRunnerFile.py
 # Ruff
 .ruff_cache/
 
-# PyPI configuration
-.pypirc
-
 # Marimo
 marimo/_static/
 marimo/_lsp/
@@ -200,7 +198,11 @@ datasets/
 results/*
 !results/.gitkeep
 
-# Model checkpoints and weights
+# Local learning files
+learning/
+
+# Checkpoints and model weights
+checkpoints/
 *.pt
 *.pth
 *.ckpt
